@@ -77,7 +77,7 @@ public class InventoryLog
         Console.WriteLine("=== Журнал учета склада ===");
         InventoryLog log = new InventoryLog();
 
-        // Добавляем товары
+        // Добавляем товар
         log.AddItem("Ноутбук", 5);
         log.AddItem("Монитор", 10);
 
@@ -85,7 +85,7 @@ public class InventoryLog
         log.RemoveItem("Монитор", 3);
         log.RemoveItem("Ноутбук", 10); // Неудачная попытка
 
-        // Результаты
+        // Результаты 
         Console.WriteLine(log.GetInventoryInfo());
         Console.WriteLine("\n" + log.GetTransactionsLog());
 
