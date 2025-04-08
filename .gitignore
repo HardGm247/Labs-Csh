@@ -1,3 +1,40 @@
-**/bin/
-**/obj/
-Добавлен .gitignore для исключения bin и obj
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Visual Studio working folder
+.vs/
+
+# Other
+*.log
+*.tlog
+*.tmp
+*.bak
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Resharper & Rider
+_ReSharper*/
+*.DotSettings.user
+
+# MacOS
+.DS_Store
+
+# Windows thumbs
+Thumbs.db
+ehthumbs.db
+
+# Rider
+.idea/
