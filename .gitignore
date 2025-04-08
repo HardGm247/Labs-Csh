@@ -1,0 +1,3 @@
+**/bin/
+**/obj/
+Добавлен .gitignore для исключения bin и obj
